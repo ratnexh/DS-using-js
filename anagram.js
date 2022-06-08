@@ -15,4 +15,4 @@ function anaGram(string1, string2) {
     }
     return true;
 }
-console.log(anaGram('ramm', 'armm'));
+console.log(anaGram('letters', 'sretlet'));

@@ -3,6 +3,7 @@ function sumPairZero(array) {
     let right = array.length - 1;
     while (left < right) {
         let sum = array[left] + array[right];
+        console.log(sum);
         if (sum === 0) {
             return [array[left], array[right]];
         }
